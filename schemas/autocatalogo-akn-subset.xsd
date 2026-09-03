@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+  targetNamespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <xs:element name="akomaNtoso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="doc" type="akn:docType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="docType">
+    <xs:sequence>
+      <xs:element name="meta" type="akn:metaType"/>
+      <xs:element name="mainBody" type="akn:mainBodyType"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="metaType">
+    <xs:sequence>
+      <xs:element name="identification" type="akn:identificationType"/>
+      <xs:element name="publication" type="akn:publicationType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="identificationType">
+    <xs:sequence>
+      <xs:element name="FRBRWork" type="akn:frbrType"/>
+      <xs:element name="FRBRExpression" type="akn:frbrType"/>
+      <xs:element name="FRBRManifestation" type="akn:frbrType"/>
+    </xs:sequence>
+    <xs:attribute name="source" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="frbrType">
+    <xs:attribute name="value" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="publicationType">
+    <xs:attribute name="date" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="optional"/>
+    <xs:attribute name="showAs" type="xs:string" use="required"/>
+    <xs:attribute name="number" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="mainBodyType">
+    <xs:sequence>
+      <xs:element name="hcontainer" type="akn:hcontainerType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="hcontainerType">
+    <xs:sequence>
+      <xs:element name="heading" type="akn:inlineText"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="p" type="akn:inlineText"/>
+        <xs:element name="list" type="akn:listType"/>
+        <xs:element name="table" type="akn:tableType"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="eId" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="inlineText" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="b" type="akn:inlineText"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="listType">
+    <xs:sequence>
+      <xs:element name="item" type="akn:itemType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element name="p" type="akn:inlineText" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tableType">
+    <xs:sequence>
+      <xs:element name="tr" type="akn:trType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="trType">
+    <xs:choice minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="th" type="akn:inlineText"/>
+      <xs:element name="td" type="akn:inlineText"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

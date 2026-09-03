@@ -1,0 +1,16 @@
+{
+  "name": "legal-docs",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/akn.mjs validate",
+    "generate-manifest": "node scripts/akn.mjs generate",
+    "ci": "node scripts/akn.mjs ci"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}

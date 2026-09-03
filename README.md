@@ -76,6 +76,17 @@ Consulte a spec para o outline completo de cada slug:
 - [ ] Texto revisado internamente (comentário na issue de escrita)
 - [ ] PR aprovado em `main`
 
+## CI
+
+Na raiz do repositório:
+
+```
+npm ci
+npm run ci
+```
+
+Isso valida os XML em `akn/` (FRBR consistente com o path) e confere que `manifest.json` está gerado. Não edite `manifest.json` à mão — rode `npm run generate-manifest` após alterar um documento publicado. O GitHub Actions também valida cada arquivo contra `schemas/autocatalogo-akn-subset.xsd`.
+
 ## Fluxo de publicação
 
 ```
