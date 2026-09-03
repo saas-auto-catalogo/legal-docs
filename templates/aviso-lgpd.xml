@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="aviso-lgpd">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/aviso-lgpd"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/aviso-lgpd/YYYY-MM-DD"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/aviso-lgpd/YYYY-MM-DD/xml"/>
+      </identification>
+      <publication date="YYYY-MM-DD" name="" showAs="Aviso LGPD" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_direitos" name="section">
+        <heading>1. Seus direitos</heading>
+        <p>[Redigir: resumo dos direitos do titular — art. 18 LGPD]</p>
+      </hcontainer>
+      <hcontainer eId="sec_exercicio" name="section">
+        <heading>2. Como exercer seus direitos</heading>
+        <p>[Redigir: passo a passo e documentos necessários]</p>
+      </hcontainer>
+      <hcontainer eId="sec_prazo" name="section">
+        <heading>3. Prazo de resposta</heading>
+        <p>[Redigir: prazos legais e confirmação de recebimento]</p>
+      </hcontainer>
+      <hcontainer eId="sec_dpo" name="section">
+        <heading>4. Encarregado (DPO)</heading>
+        <p>[Redigir: nome/canal do encarregado]</p>
+      </hcontainer>
+      <hcontainer eId="sec_anpd" name="section">
+        <heading>5. Autoridade Nacional (ANPD)</heading>
+        <p>[Redigir: direito de reclamação à ANPD]</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>

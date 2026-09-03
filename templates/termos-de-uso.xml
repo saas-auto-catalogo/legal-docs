@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="termos-de-uso">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/termos-de-uso"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/termos-de-uso/YYYY-MM-DD"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/termos-de-uso/YYYY-MM-DD/xml"/>
+      </identification>
+      <publication date="YYYY-MM-DD" name="" showAs="Termos de Uso" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_objeto" name="section">
+        <heading>1. Objeto do serviço</heading>
+        <p>[Redigir: descrição do SaaS Auto Catálogo e aceite dos termos]</p>
+      </hcontainer>
+      <hcontainer eId="sec_elegibilidade" name="section">
+        <heading>2. Elegibilidade</heading>
+        <p>[Redigir: quem pode contratar — lojistas B2B, maioridade, capacidade]</p>
+      </hcontainer>
+      <hcontainer eId="sec_conta" name="section">
+        <heading>3. Conta e credenciais</heading>
+        <p>[Redigir: registro, responsabilidade pelas credenciais, multi-usuário]</p>
+      </hcontainer>
+      <hcontainer eId="sec_uso_aceitavel" name="section">
+        <heading>4. Uso aceitável</heading>
+        <p>[Redigir: proibições, conformidade com leis e políticas de plataformas]</p>
+      </hcontainer>
+      <hcontainer eId="sec_pi" name="section">
+        <heading>5. Propriedade intelectual</heading>
+        <p>[Redigir: titularidade do software, licença de uso, conteúdo do cliente]</p>
+      </hcontainer>
+      <hcontainer eId="sec_limitacao" name="section">
+        <heading>6. Limitação de responsabilidade</heading>
+        <p>[Redigir: exclusões e limites aplicáveis]</p>
+      </hcontainer>
+      <hcontainer eId="sec_rescisao" name="section">
+        <heading>7. Rescisão</heading>
+        <p>[Redigir: encerramento por parte do usuário ou do provedor]</p>
+      </hcontainer>
+      <hcontainer eId="sec_foro" name="section">
+        <heading>8. Foro e lei aplicável</heading>
+        <p>[Redigir: lei brasileira e foro competente]</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>

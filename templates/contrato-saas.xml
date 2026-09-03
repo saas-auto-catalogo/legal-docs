@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="contrato-saas">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/contrato-saas"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/contrato-saas/YYYY-MM-DD"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/contrato-saas/YYYY-MM-DD/xml"/>
+      </identification>
+      <publication date="YYYY-MM-DD" name="" showAs="Contrato SaaS" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_planos" name="section">
+        <heading>1. Planos e preços</heading>
+        <p>[Redigir: Starter, Pro, Agency — referência à página de planos]</p>
+      </hcontainer>
+      <hcontainer eId="sec_trial" name="section">
+        <heading>2. Período de teste (trial)</heading>
+        <p>[Redigir: 14 dias, condições, conversão]</p>
+      </hcontainer>
+      <hcontainer eId="sec_faturamento" name="section">
+        <heading>3. Faturamento e Stripe</heading>
+        <p>[Redigir: ciclo, renovação, inadimplência, impostos]</p>
+      </hcontainer>
+      <hcontainer eId="sec_sla" name="section">
+        <heading>4. SLA e disponibilidade</heading>
+        <p>[Redigir: 99.9%, referência aos RNFs]</p>
+      </hcontainer>
+      <hcontainer eId="sec_suporte" name="section">
+        <heading>5. Suporte</heading>
+        <p>[Redigir: canais, horários, escopo]</p>
+      </hcontainer>
+      <hcontainer eId="sec_alteracao" name="section">
+        <heading>6. Alteração de termos e preços</heading>
+        <p>[Redigir: aviso prévio, continuidade de uso]</p>
+      </hcontainer>
+      <hcontainer eId="sec_cancelamento" name="section">
+        <heading>7. Cancelamento</heading>
+        <p>[Redigir: como cancelar, efeitos, reembolso]</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>

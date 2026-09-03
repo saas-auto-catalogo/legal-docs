@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="politica-de-privacidade">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/politica-de-privacidade"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/politica-de-privacidade/YYYY-MM-DD"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/politica-de-privacidade/YYYY-MM-DD/xml"/>
+      </identification>
+      <publication date="YYYY-MM-DD" name="" showAs="Política de Privacidade" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_controlador" name="section">
+        <heading>1. Controlador e encarregado (DPO)</heading>
+        <p>[Redigir: identificação do controlador e canal do encarregado]</p>
+      </hcontainer>
+      <hcontainer eId="sec_dados" name="section">
+        <heading>2. Dados pessoais coletados</heading>
+        <p>[Redigir: categorias — cadastro, billing, feeds, logs, cookies]</p>
+      </hcontainer>
+      <hcontainer eId="sec_bases" name="section">
+        <heading>3. Bases legais (LGPD)</heading>
+        <p>[Redigir: execução de contrato, legítimo interesse, consentimento, etc.]</p>
+      </hcontainer>
+      <hcontainer eId="sec_finalidades" name="section">
+        <heading>4. Finalidades do tratamento</heading>
+        <p>[Redigir: operação do SaaS, suporte, billing, melhorias, marketing]</p>
+      </hcontainer>
+      <hcontainer eId="sec_compartilhamento" name="section">
+        <heading>5. Compartilhamento e subprocessadores</heading>
+        <p>[Redigir: Stripe, GCP, Meta, etc.]</p>
+      </hcontainer>
+      <hcontainer eId="sec_retencao" name="section">
+        <heading>6. Retenção e eliminação</heading>
+        <p>[Redigir: prazos, expurgo 30d pós-cancelamento conforme RNF]</p>
+      </hcontainer>
+      <hcontainer eId="sec_direitos" name="section">
+        <heading>7. Direitos do titular</heading>
+        <p>[Redigir: acesso, correção, exclusão, portabilidade, revogação]</p>
+      </hcontainer>
+      <hcontainer eId="sec_contato" name="section">
+        <heading>8. Canal de contato</heading>
+        <p>[Redigir: e-mail/formulário para exercício de direitos]</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>

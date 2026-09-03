@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="politica-de-cookies">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/politica-de-cookies"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/politica-de-cookies/YYYY-MM-DD"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/politica-de-cookies/YYYY-MM-DD/xml"/>
+      </identification>
+      <publication date="YYYY-MM-DD" name="" showAs="Política de Cookies" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_definicao" name="section">
+        <heading>1. O que são cookies</heading>
+        <p>[Redigir: definição em linguagem clara]</p>
+      </hcontainer>
+      <hcontainer eId="sec_tipos" name="section">
+        <heading>2. Tipos de cookies</heading>
+        <p>[Redigir: essenciais vs analíticos vs marketing]</p>
+      </hcontainer>
+      <hcontainer eId="sec_tabela" name="section">
+        <heading>3. Tabela de cookies</heading>
+        <p>[Redigir: nome, finalidade, duração, terceiro]</p>
+      </hcontainer>
+      <hcontainer eId="sec_gerenciar" name="section">
+        <heading>4. Como gerenciar cookies</heading>
+        <p>[Redigir: banner, navegador, revogação]</p>
+      </hcontainer>
+      <hcontainer eId="sec_privacidade" name="section">
+        <heading>5. Relação com a Política de Privacidade</heading>
+        <p>[Redigir: link e referência cruzada]</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>
