@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="politica-de-cookies">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/politica-de-cookies"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/politica-de-cookies/2026-09-02"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/politica-de-cookies/2026-09-02/xml"/>
+      </identification>
+      <publication date="2026-09-02" name="" showAs="Política de Cookies" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_definicao" name="section">
+        <heading>1. O que são cookies</heading>
+        <p>Esta Política de Cookies descreve como o SaaS Auto Catálogo, operado por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), utiliza cookies e tecnologias similares nos domínios do serviço — incluindo app.autocatalogo.com.br, api.autocatalogo.com.br e o site de marketing do produto.</p>
+        <p>Cookies são pequenos arquivos de texto armazenados no navegador ou dispositivo quando você visita um site ou utiliza um aplicativo web. Eles permitem reconhecer o dispositivo, manter preferências e viabilizar funcionalidades essenciais, como a autenticação.</p>
+        <p>Além de cookies, o serviço pode utilizar tecnologias similares, como armazenamento local do navegador (por exemplo, para registrar preferências de consentimento no banner de cookies, quando disponível) e tokens de acesso mantidos em memória no aplicativo (sem persistência em cookie). Recursos de terceiros, como fontes tipográficas carregadas de provedores externos, podem envolver requisições a domínios de terceiros sem que o Prestador defina cookies de primeira parte para essa finalidade.</p>
+        <p>Esta política não se aplica a sites ou aplicativos de terceiros que não façam parte do SaaS Auto Catálogo, ainda que sejam acessados por links a partir das nossas páginas.</p>
+      </hcontainer>
+      <hcontainer eId="sec_tipos" name="section">
+        <heading>2. Tipos de cookies</heading>
+        <p>Classificamos os cookies e tecnologias similares nas categorias abaixo:</p>
+        <list>
+          <item>
+            <p><b>Essenciais:</b> necessários para o funcionamento do serviço, incluindo autenticação, segurança e processamento de pagamento em páginas de terceiros quando você é redirecionado para concluir uma assinatura. Não exigem consentimento prévio, pois sem eles o serviço não pode ser prestado conforme contratado.</p>
+          </item>
+          <item>
+            <p><b>Analíticos:</b> medem uso e desempenho do site ou aplicativo (por exemplo, páginas visitadas e erros). Quando forem introduzidos, dependerão do seu consentimento prévio e poderão ser recusados sem prejudicar o login e o uso principal da Plataforma.</p>
+          </item>
+          <item>
+            <p><b>Marketing:</b> permitem personalização de anúncios ou remarketing em plataformas de terceiros. Quando forem introduzidos, dependerão do seu consentimento prévio.</p>
+          </item>
+        </list>
+        <p>Na data desta versão, o SaaS Auto Catálogo utiliza apenas cookies essenciais de primeira parte e cookies de terceiros estritamente necessários ao pagamento (Stripe) e à conexão com contas Meta (Login for Business). Não utilizamos, neste momento, cookies analíticos ou de marketing em nossos domínios.</p>
+      </hcontainer>
+      <hcontainer eId="sec_tabela" name="section">
+        <heading>3. Tabela de cookies</heading>
+        <p>A tabela a seguir lista os cookies e tecnologias de rastreamento relevantes conhecidos na data desta política. Cookies definidos exclusivamente em domínios de terceiros podem variar conforme as políticas desses provedores.</p>
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Finalidade</th>
+            <th>Duração</th>
+            <th>Parte</th>
+            <th>Tipo</th>
+          </tr>
+          <tr>
+            <td>refreshToken</td>
+            <td>Manter a sessão autenticada e permitir a renovação do token de acesso (JWT) após login ou registro, nas rotas de autenticação da API.</td>
+            <td>30 dias</td>
+            <td>Primeira parte (domínio da API; httpOnly; Path=/api/v1/auth; SameSite=Lax)</td>
+            <td>Essencial</td>
+          </tr>
+          <tr>
+            <td>Cookies do Stripe (ex.: em checkout.stripe.com e billing.stripe.com)</td>
+            <td>Processar pagamento, prevenir fraude e operar o Checkout e o Portal do Cliente quando você é redirecionado para concluir ou gerenciar a assinatura.</td>
+            <td>Conforme política do Stripe</td>
+            <td>Terceiro (Stripe, Inc.)</td>
+            <td>Essencial (pagamento)</td>
+          </tr>
+          <tr>
+            <td>Cookies do Meta / Facebook (em facebook.com)</td>
+            <td>Autenticar e autorizar a conexão da conta de anúncios Meta (Login for Business) para sincronização de catálogo e anúncios automotivos (DAA).</td>
+            <td>Conforme política do Meta</td>
+            <td>Terceiro (Meta Platforms, Inc.)</td>
+            <td>Essencial (conector)</td>
+          </tr>
+        </table>
+        <p>O token de acesso (JWT) tem validade de aproximadamente 15 minutos e é mantido em memória no aplicativo, não em cookie. Se forem adicionados cookies analíticos ou de marketing no futuro, esta tabela será atualizada e o banner de cookies solicitará consentimento antes da sua ativação.</p>
+      </hcontainer>
+      <hcontainer eId="sec_gerenciar" name="section">
+        <heading>4. Como gerenciar cookies</heading>
+        <p>Quando o banner de cookies estiver disponível no site de marketing, você poderá aceitar todos os cookies, recusar cookies não essenciais ou personalizar categorias (analíticos e marketing). A escolha será registrada para respeitar suas preferências em visitas futuras.</p>
+        <p>Você também pode configurar o navegador para bloquear ou excluir cookies. A desativação de cookies essenciais — em especial o refreshToken — impedirá a manutenção da sessão autenticada e pode exigir novo login a cada acesso ou limitar funcionalidades do serviço.</p>
+        <p>Para cookies definidos em domínios de terceiros (Stripe, Meta), consulte as configurações de privacidade e as políticas de cookies desses provedores. A revogação de acesso à conta Meta ou o encerramento da assinatura no Stripe pode limitar cookies associados a esses fluxos.</p>
+        <p>Para dúvidas sobre cookies ou para exercer direitos relacionados a dados pessoais, utilize o canal indicado na Política de Privacidade ou escreva para suporte@autocatalogo.com.br.</p>
+      </hcontainer>
+      <hcontainer eId="sec_privacidade" name="section">
+        <heading>5. Relação com a Política de Privacidade</heading>
+        <p>Esta Política de Cookies complementa a Política de Privacidade do SaaS Auto Catálogo, que descreve de forma mais ampla as bases legais, finalidades, compartilhamento, retenção e direitos do titular de dados pessoais tratados no serviço, inclusive dados obtidos por meio de cookies essenciais.</p>
+        <p>Consulte a versão vigente em /legal/politica-de-privacidade. Em caso de conflito entre documentos sobre tratamento de dados pessoais, prevalece a Política de Privacidade.</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>
