@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="termos-de-uso">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/termos-de-uso"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/termos-de-uso/2026-09-02"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/termos-de-uso/2026-09-02/xml"/>
+      </identification>
+      <publication date="2026-09-02" name="" showAs="Termos de Uso" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_objeto" name="section">
+        <heading>1. Objeto do serviço</heading>
+        <p>Estes Termos de Uso regulam o acesso e a utilização da plataforma SaaS Auto Catálogo (“Plataforma”), disponibilizada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”).</p>
+        <p>A Plataforma é um software como serviço destinado a lojistas e concessionárias automotivas, que sincroniza o estoque de sistemas de gestão (DMS) — incluindo AutoCerto, Altimus, Sisvag, BomControle e Webmotors — para publicação e atualização de anúncios automotivos no Meta, no formato Automotive Inventory Ads (Dynamic Automotive Ads — DAA).</p>
+        <p>O cadastro, o login e o uso da Plataforma, inclusive em app.autocatalogo.com.br, implicam a leitura e o aceite integral destes Termos. Se o Cliente não concordar, deve abster-se de utilizar o serviço. Condições comerciais (planos, preços, trial, faturamento e SLA) são tratadas no Contrato SaaS vigente.</p>
+      </hcontainer>
+      <hcontainer eId="sec_elegibilidade" name="section">
+        <heading>2. Elegibilidade</heading>
+        <p>O serviço destina-se exclusivamente a uso profissional B2B: pessoas jurídicas ou profissionais que atuem como lojistas, concessionárias ou agências no mercado automotivo no Brasil.</p>
+        <p>Quem cria a conta e representa o Cliente perante o Prestador deve ser maior de 18 anos, ter plena capacidade civil e, se agir em nome de pessoa jurídica, possuir poderes para vinculá-la a estes Termos.</p>
+        <p>O Cliente declara que as informações de cadastro são verdadeiras, completas e atualizadas, e que o uso da Plataforma não se destina a consumidor final pessoa física em relação de consumo com o Prestador.</p>
+      </hcontainer>
+      <hcontainer eId="sec_conta" name="section">
+        <heading>3. Conta e credenciais</heading>
+        <p>O acesso à Plataforma exige registro de conta e, quando aplicável, de um workspace associado ao Cliente. O titular da conta é responsável por todas as atividades realizadas com suas credenciais e pelos usuários que convidar ou autorizar no workspace.</p>
+        <p>O Cliente deve manter senha e demais fatores de autenticação em sigilo, não compartilhá-los com terceiros não autorizados e notificar o Prestador, sem demora, em caso de perda, comprometimento ou uso indevido da conta, pelo canal suporte@autocatalogo.com.br.</p>
+        <p>O Prestador pode recusar, suspender ou exigir verificação adicional de cadastro quando houver indício de dados falsos, risco de segurança ou violação destes Termos.</p>
+      </hcontainer>
+      <hcontainer eId="sec_uso_aceitavel" name="section">
+        <heading>4. Uso aceitável</heading>
+        <p>O Cliente compromete-se a utilizar a Plataforma de forma lícita, de boa-fé e em conformidade com a legislação brasileira (incluindo a Lei n.º 13.709/2018 — LGPD), com as políticas do Meta aplicáveis a anúncios automotivos e Dynamic Automotive Ads, e com as condições dos DMS e demais integrações que conectar.</p>
+        <p>É vedado, entre outras condutas:</p>
+        <list>
+          <item>
+            <p>usar a Plataforma para fins ilícitos, fraudulentos ou que violem direitos de terceiros;</p>
+          </item>
+          <item>
+            <p>enviar, publicar ou sincronizar conteúdo falso, enganoso, ofensivo ou que infrinja propriedade intelectual;</p>
+          </item>
+          <item>
+            <p>realizar engenharia reversa, scraping abusivo, sobrecarga, burla de limites técnicos ou acesso não autorizado a sistemas do Prestador ou de terceiros;</p>
+          </item>
+          <item>
+            <p>interferir na operação da Plataforma, de APIs de DMS, do Meta ou de outros clientes;</p>
+          </item>
+          <item>
+            <p>revender, sublicenciar ou disponibilizar o serviço a terceiros fora do modelo contratado, sem autorização.</p>
+          </item>
+        </list>
+        <p>O Cliente é o único responsável pela veracidade, licitude e atualização dos dados de estoque, preços, fotos e demais informações enviadas às plataformas de anúncio. O Prestador não controla a aprovação, a entrega ou as políticas de anúncios do Meta.</p>
+      </hcontainer>
+      <hcontainer eId="sec_pi" name="section">
+        <heading>5. Propriedade intelectual</heading>
+        <p>O software da Plataforma, a marca Auto Catálogo, a documentação, as interfaces e demais elementos desenvolvidos pelo Prestador são de sua titularidade ou de seus licenciadores. O Cliente recebe licença de uso não exclusiva, intransferível e revogável, limitada ao período de vigência da relação contratual e ao objeto destes Termos.</p>
+        <p>Os dados de catálogo, estoque, criativos e demais conteúdos inseridos ou sincronizados pelo Cliente (“Conteúdo do Cliente”) permanecem de titularidade do Cliente ou de quem lhe concedeu direitos. O Cliente concede ao Prestador licença limitada para tratar, transmitir e armazenar esse conteúdo apenas na medida necessária à prestação do serviço (incluindo envio ao Meta e aos conectores de DMS).</p>
+        <p>O Cliente não adquire, pelo uso da Plataforma, qualquer direito sobre o software, APIs, marcas ou materiais do Prestador, do Meta ou dos fornecedores de DMS.</p>
+      </hcontainer>
+      <hcontainer eId="sec_limitacao" name="section">
+        <heading>6. Limitação de responsabilidade</heading>
+        <p>A Plataforma é disponibilizada “no estado em que se encontra” e “conforme disponibilidade”. O Prestador não garante resultado comercial de anúncios, posicionamento no Meta, continuidade ininterrupta de APIs de terceiros (DMS, Meta ou outros) nem níveis de serviço — estes, quando houver, constam apenas do Contrato SaaS.</p>
+        <p>Na máxima extensão permitida pela lei brasileira, o Prestador não responde por lucros cessantes, perda de chance, danos indiretos, incidentes causados por falha de DMS, do Meta, de internet, de equipamentos do Cliente ou por conteúdo ilícito ou inexato enviado pelo Cliente.</p>
+        <p>Eventual responsabilidade do Prestador por danos diretos comprovadamente causados por dolo ou culpa na prestação do serviço fica limitada, no conjunto, ao valor efetivamente pago pelo Cliente ao Prestador nos três meses anteriores ao fato gerador, ou a outro teto previsto no Contrato SaaS, se este for mais específico.</p>
+      </hcontainer>
+      <hcontainer eId="sec_rescisao" name="section">
+        <heading>7. Rescisão</heading>
+        <p>O Cliente pode encerrar o uso da Plataforma a qualquer momento, observadas as condições de cancelamento e cobrança do Contrato SaaS, quando aplicável.</p>
+        <p>O Prestador pode suspender o acesso ou rescindir a relação, com ou sem aviso prévio proporcional à gravidade, em caso de violação destes Termos, inadimplência, risco à segurança, uso ilícito ou exigência legal.</p>
+        <p>Com a rescisão, cessa o direito de uso da Plataforma. Os dados do Cliente serão eliminados em até 30 (trinta) dias, salvo obrigação legal de retenção. Detalhes de tratamento, retenção e direitos do titular constam da Política de Privacidade vigente.</p>
+      </hcontainer>
+      <hcontainer eId="sec_foro" name="section">
+        <heading>8. Foro e lei aplicável</heading>
+        <p>Estes Termos são regidos pelas leis da República Federativa do Brasil.</p>
+        <p>Fica eleito o foro da Comarca de Guapó, Estado de Goiás, para dirimir quaisquer controvérsias oriundas destes Termos, com renúncia a qualquer outro, por mais privilegiado que seja.</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>
