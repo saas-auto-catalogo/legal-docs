@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    name: validate AKN and manifest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install libxml2
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Validate XML against subset XSD
+        run: |
+          set -euo pipefail
+          count=$(find akn -name '*.xml' | wc -l)
+          if [ "$count" -eq 0 ]; then
+            echo "nenhum XML em akn/"
+            exit 1
+          fi
+          find akn -name '*.xml' -print0 | sort -z | xargs -0 -n1 xmllint --noout --schema schemas/autocatalogo-akn-subset.xsd
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate FRBR and manifest
+        run: npm run ci
