@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="politica-de-privacidade">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/politica-de-privacidade"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/politica-de-privacidade/2026-09-02"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/politica-de-privacidade/2026-09-02/xml"/>
+      </identification>
+      <publication date="2026-09-02" name="" showAs="Política de Privacidade" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_controlador" name="section">
+        <heading>1. Controlador e encarregado (DPO)</heading>
+        <p>Esta Política de Privacidade descreve como o SaaS Auto Catálogo trata dados pessoais em conformidade com a Lei n.º 13.709/2018 (Lei Geral de Proteção de Dados Pessoais — LGPD).</p>
+        <p>O controlador dos dados pessoais tratados neste serviço é Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Controlador”).</p>
+        <p>O encarregado pelo tratamento de dados pessoais (Data Protection Officer — DPO) é o próprio Controlador. Para assuntos relacionados à privacidade e à LGPD, utilize o canal suporte@autocatalogo.com.br.</p>
+        <p>Esta política aplica-se ao uso da Plataforma nos domínios app.autocatalogo.com.br, api.autocatalogo.com.br e no site de marketing do produto, por lojistas e concessionárias que contratam o serviço em modelo B2B.</p>
+      </hcontainer>
+      <hcontainer eId="sec_dados" name="section">
+        <heading>2. Dados pessoais coletados</heading>
+        <p>Coletamos e tratamos as categorias de dados pessoais abaixo, conforme necessário à prestação do serviço:</p>
+        <list>
+          <item>
+            <p><b>Cadastro e conta:</b> nome, endereço de e-mail, senha (armazenada em formato criptográfico irreversível), foto de perfil (quando informada) e, opcionalmente, dados de autenticação multifator (MFA).</p>
+          </item>
+          <item>
+            <p><b>Workspace e loja:</b> nome comercial, slug, CNPJ, razão social, telefone, e-mail da loja, endereço, cidade, UF, CEP, site e logotipo.</p>
+          </item>
+          <item>
+            <p><b>Assinatura e faturamento:</b> plano contratado, status da assinatura (incluindo período de trial), identificadores de cliente e assinatura no Stripe, e-mail utilizado no checkout e metadados de cobrança.</p>
+          </item>
+          <item>
+            <p><b>Feeds e integrações DMS:</b> URL do feed, tipo de sistema de gestão (por exemplo, AutoCerto, Altimus, Sisvag, BomControle, Webmotors ou outro conector suportado), intervalo de sincronização, status e mensagens de erro de sincronização.</p>
+          </item>
+          <item>
+            <p><b>Inventário de veículos:</b> dados comerciais dos veículos sincronizados (marca, modelo, versão, ano, preço, quilometragem, descrição, fotos, VIN e placa, quando disponíveis nas fontes indicadas pelo Cliente). O serviço não coleta dados de compradores ou consumidores finais.</p>
+          </item>
+          <item>
+            <p><b>Integração Meta:</b> identificadores de catálogo e conta comercial Meta (metaCatalogId, metaBusinessId) e URL pública do feed para Dynamic Automotive Ads (DAA), após autorização OAuth do Cliente.</p>
+          </item>
+          <item>
+            <p><b>Segurança, sessão e logs:</b> endereço IP, agente de usuário (user-agent), registros de login, tentativas de acesso, tokens de sessão (incluindo cookie refreshToken), trilhas de auditoria de ações sensíveis e, quando aplicável, registros de suporte técnico com impersonação autorizada.</p>
+          </item>
+          <item>
+            <p><b>Comunicações:</b> e-mail do destinatário e conteúdo de mensagens transacionais (boas-vindas, redefinição de senha, alertas de sincronização e avisos de cobrança).</p>
+          </item>
+          <item>
+            <p><b>Cookies e tecnologias similares:</b> conforme descrito na Política de Cookies em /legal/politica-de-cookies.</p>
+          </item>
+        </list>
+        <p>O Cliente é responsável por garantir que possui base legal para compartilhar conosco os dados obtidos de seus sistemas de gestão e de seu inventário, inclusive quando contiverem dados de terceiros inseridos nas fontes originais.</p>
+      </hcontainer>
+      <hcontainer eId="sec_bases" name="section">
+        <heading>3. Bases legais (LGPD)</heading>
+        <p>Tratamos dados pessoais com fundamento nas hipóteses do art. 7º e, quando aplicável, do art. 11 da LGPD, incluindo:</p>
+        <list>
+          <item>
+            <p><b>Execução de contrato ou procedimentos preliminares (art. 7º, V):</b> cadastro, autenticação, operação do workspace, sincronização de feeds, publicação no Meta DAA, cobrança e suporte ao serviço contratado.</p>
+          </item>
+          <item>
+            <p><b>Legítimo interesse (art. 7º, IX):</b> segurança da Plataforma, prevenção a fraudes e abusos, logs de auditoria, melhoria da confiabilidade do serviço e comunicações operacionais essenciais, respeitados os direitos do titular.</p>
+          </item>
+          <item>
+            <p><b>Consentimento (art. 7º, I):</b> aceite desta Política e dos Termos de Uso no cadastro; autorização OAuth junto ao Meta; e, quando introduzidos, cookies analíticos ou de marketing mediante opt-in no banner de cookies.</p>
+          </item>
+          <item>
+            <p><b>Cumprimento de obrigação legal ou regulatória (art. 7º, II):</b> retenção de registros de faturamento e informações exigidas por normas fiscais ou contábeis aplicáveis.</p>
+          </item>
+        </list>
+      </hcontainer>
+      <hcontainer eId="sec_finalidades" name="section">
+        <heading>4. Finalidades do tratamento</heading>
+        <p>Utilizamos os dados pessoais para as finalidades abaixo:</p>
+        <list>
+          <item>
+            <p>criar e administrar contas de usuários e workspaces;</p>
+          </item>
+          <item>
+            <p>autenticar acessos e manter sessões seguras;</p>
+          </item>
+          <item>
+            <p>operar a sincronização de estoque entre DMS e catálogo Meta (DAA);</p>
+          </item>
+          <item>
+            <p>processar assinaturas, trials e pagamentos;</p>
+          </item>
+          <item>
+            <p>enviar comunicações transacionais e de suporte;</p>
+          </item>
+          <item>
+            <p>registrar trilhas de auditoria e investigar incidentes de segurança;</p>
+          </item>
+          <item>
+            <p>cumprir obrigações legais e responder a solicitações de autoridades competentes;</p>
+          </item>
+          <item>
+            <p>exercer direitos em processos judiciais, administrativos ou arbitrais.</p>
+          </item>
+        </list>
+        <p>Não utilizamos, neste momento, dados pessoais para marketing direto a consumidores finais nem para publicidade comportamental em nossos domínios. Caso passemos a utilizar cookies ou ferramentas analíticas ou de marketing, atualizaremos esta política e a Política de Cookies e solicitaremos consentimento quando exigido.</p>
+      </hcontainer>
+      <hcontainer eId="sec_compartilhamento" name="section">
+        <heading>5. Compartilhamento e subprocessadores</heading>
+        <p>Podemos compartilhar dados pessoais com terceiros que nos auxiliam na prestação do serviço, sempre na medida necessária e mediante contratos ou termos que exijam proteção adequada dos dados:</p>
+        <list>
+          <item>
+            <p><b>Stripe, Inc.</b> — processamento de pagamentos, Checkout e Portal do Cliente.</p>
+          </item>
+          <item>
+            <p><b>Meta Platforms, Inc.</b> — autenticação OAuth (Login for Business) e operação de catálogos e anúncios automotivos (DAA).</p>
+          </item>
+          <item>
+            <p><b>Resend</b> — envio de e-mails transacionais.</p>
+          </item>
+          <item>
+            <p><b>Provedores de hospedagem</b> — armazenamento em banco de dados relacional e cache (por exemplo, PostgreSQL e Redis), com criptografia em trânsito (TLS) e em repouso conforme nossos requisitos de segurança.</p>
+          </item>
+        </list>
+        <p>Os sistemas de gestão (DMS) e demais fontes de feed indicados pelo Cliente (AutoCerto, Altimus, Sisvag, BomControle, Webmotors, entre outros) são fontes de dados controladas pelo Cliente, e não atuam como subprocessadores do Controlador neste serviço.</p>
+        <p>Stripe, Meta e Resend podem tratar dados em servidores localizados fora do Brasil. Nesses casos, adotamos salvaguardas contratuais e técnicas compatíveis com a LGPD, incluindo cláusulas padrão e medidas de segurança exigidas pelos fornecedores.</p>
+        <p>Não vendemos dados pessoais. Podemos divulgar informações quando exigido por lei, ordem judicial ou autoridade competente, ou para proteger direitos do Controlador, dos Clientes e de terceiros em caso de fraude ou ameaça à segurança.</p>
+      </hcontainer>
+      <hcontainer eId="sec_retencao" name="section">
+        <heading>6. Retenção e eliminação</heading>
+        <p>Mantemos dados pessoais pelo tempo necessário às finalidades descritas nesta política e conforme os prazos abaixo:</p>
+        <list>
+          <item>
+            <p><b>Conta ativa:</b> enquanto durar a relação contratual e o uso da Plataforma.</p>
+          </item>
+          <item>
+            <p><b>Após cancelamento:</b> eliminação dos dados do Cliente em até 30 (trinta) dias, salvo quando a retenção for necessária para cumprimento de obrigação legal, resolução de disputas ou exercício de direitos.</p>
+          </item>
+          <item>
+            <p><b>Dados de faturamento:</b> podem ser mantidos pelo prazo legal aplicável para fins fiscais, contábeis e de defesa em processos.</p>
+          </item>
+          <item>
+            <p><b>Sessão e segurança:</b> cookie refreshToken por até 30 dias; token de redefinição de senha por até 1 hora; cache temporário de feeds por até 15 minutos.</p>
+          </item>
+          <item>
+            <p><b>Logs e histórico de sincronização:</b> retidos pelo período necessário à segurança, diagnóstico e conformidade, com expurgo periódico alinhado aos nossos requisitos internos de proteção de dados (incluindo eliminação de payloads brutos após o prazo operacional definido).</p>
+          </item>
+        </list>
+        <p>Adotamos medidas técnicas e organizacionais para proteger dados em repouso e em trânsito, incluindo TLS, criptografia em repouso no banco de dados gerenciado, controle de acesso e registros de auditoria de operações sensíveis. Comprometemo-nos à minimização de dados no inventário veicular e ao suporte à ofuscação de placas quando aplicável às integrações.</p>
+      </hcontainer>
+      <hcontainer eId="sec_direitos" name="section">
+        <heading>7. Direitos do titular</heading>
+        <p>Nos termos do art. 18 da LGPD, o titular de dados pessoais pode solicitar, mediante requisição ao Controlador:</p>
+        <list>
+          <item>
+            <p>confirmação da existência de tratamento;</p>
+          </item>
+          <item>
+            <p>acesso aos dados;</p>
+          </item>
+          <item>
+            <p>correção de dados incompletos, inexatos ou desatualizados;</p>
+          </item>
+          <item>
+            <p>anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade;</p>
+          </item>
+          <item>
+            <p>portabilidade dos dados a outro fornecedor de serviço, observadas as normas da autoridade nacional;</p>
+          </item>
+          <item>
+            <p>eliminação dos dados tratados com base no consentimento, exceto nas hipóteses legais de conservação;</p>
+          </item>
+          <item>
+            <p>informação sobre entidades públicas e privadas com as quais houve compartilhamento;</p>
+          </item>
+          <item>
+            <p>informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;</p>
+          </item>
+          <item>
+            <p>revogação do consentimento, quando essa for a base do tratamento.</p>
+          </item>
+        </list>
+        <p>O titular também pode apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD). A revogação do consentimento ou a solicitação de eliminação pode limitar ou impedir o uso da Plataforma quando o tratamento for indispensável à execução do contrato.</p>
+      </hcontainer>
+      <hcontainer eId="sec_contato" name="section">
+        <heading>8. Canal de contato</heading>
+        <p>Para exercer seus direitos como titular de dados pessoais, esclarecer dúvidas sobre esta política ou reportar incidentes de privacidade, envie mensagem para suporte@autocatalogo.com.br, informando nome completo e o e-mail associado à conta.</p>
+        <p>Responderemos às solicitações em até 15 (quinze) dias, prorrogáveis por mais 15 dias mediante justificativa escrita ao titular, conforme art. 18, § 4º, da LGPD.</p>
+        <p>Esta Política de Privacidade pode ser atualizada periodicamente. A versão vigente estará disponível em /legal/politica-de-privacidade, com data de publicação indicada nos metadados do documento. O uso continuado da Plataforma após alterações relevantes poderá exigir novo aceite, conforme comunicado no produto.</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>
