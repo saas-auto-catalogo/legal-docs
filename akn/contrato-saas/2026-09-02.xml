@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <doc name="contrato-saas">
+    <meta>
+      <identification source="#autocatalogo">
+        <FRBRWork value="/akn/br/doc/autocatalogo/contrato-saas"/>
+        <FRBRExpression value="/akn/br/doc/autocatalogo/contrato-saas/2026-09-02"/>
+        <FRBRManifestation value="/akn/br/doc/autocatalogo/contrato-saas/2026-09-02/xml"/>
+      </identification>
+      <publication date="2026-09-02" name="" showAs="Contrato SaaS" number=""/>
+    </meta>
+    <mainBody>
+      <hcontainer eId="sec_planos" name="section">
+        <heading>1. Planos e preços</heading>
+        <p>Este Contrato SaaS (“Contrato”) regula as condições comerciais da plataforma SaaS Auto Catálogo (“Plataforma”), prestada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), ao lojista, concessionária ou agência que contrata o serviço (“Cliente”). Complementa os Termos de Uso vigentes em /legal/termos-de-uso. O aceite deste Contrato ocorre no checkout ou na conversão do período de teste para plano pago.</p>
+        <p>A Plataforma é oferecida em três planos, com cobrança em reais (BRL), nas modalidades mensal e anual:</p>
+        <table>
+          <tr>
+            <th>Plano</th>
+            <th>Mensal</th>
+            <th>Anual</th>
+            <th>Veículos</th>
+            <th>Feeds</th>
+            <th>Membros</th>
+            <th>Catálogos Meta</th>
+          </tr>
+          <tr>
+            <td>Starter Catalog</td>
+            <td>R$ 490,00</td>
+            <td>R$ 4.900,00</td>
+            <td>100</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Pro Automotive</td>
+            <td>R$ 890,00</td>
+            <td>R$ 8.900,00</td>
+            <td>500</td>
+            <td>5</td>
+            <td>10</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Enterprise DAA</td>
+            <td>R$ 1.490,00</td>
+            <td>R$ 14.900,00</td>
+            <td>Ilimitado</td>
+            <td>Ilimitado</td>
+            <td>Ilimitado</td>
+            <td>Ilimitado</td>
+          </tr>
+        </table>
+        <p>O plano Pro Automotive inclui o trabalhador de conteúdo de blog com inteligência artificial, quando disponibilizado no produto. O plano Enterprise DAA inclui suporte prioritário e onboarding. Os limites técnicos acima são os vigentes na data desta versão; a página de planos e o checkout da Plataforma podem refletir valores atualizados, observados o aviso prévio da seção 6.</p>
+        <p>Não há fidelidade mínima. O Cliente pode cancelar a qualquer momento, nos termos da seção 7. Este Contrato não substitui os Termos de Uso quanto a objeto do serviço, uso aceitável, propriedade intelectual, limitação de responsabilidade e foro.</p>
+      </hcontainer>
+      <hcontainer eId="sec_trial" name="section">
+        <heading>2. Período de teste (trial)</heading>
+        <p>O Prestador pode oferecer período de teste gratuito de 14 (quatorze) dias corridos, sem exigência de cartão de crédito no cadastro, mediante registro na Plataforma com indicação de plano de teste.</p>
+        <p>Durante o trial, o workspace opera com os limites equivalentes ao plano Pro Automotive. É permitido um único trial por endereço de e-mail de cadastro. Tentativas posteriores de novo trial com o mesmo e-mail serão recusadas.</p>
+        <p>O Prestador poderá enviar lembrete por e-mail cerca de 3 (três) dias antes do vencimento. Ao término dos 14 dias sem conversão para plano pago, a assinatura passa ao status expirado e o acesso às funcionalidades pagas fica sujeito a paywall até a contratação via checkout autenticado.</p>
+        <p>A conversão ocorre quando o Cliente conclui o pagamento no Stripe Checkout. A partir da confirmação do pagamento, a assinatura torna-se ativa no plano escolhido. O trial não se confunde com a assinatura paga e não gera cobrança automática ao expirar, salvo se o Cliente iniciar o checkout.</p>
+      </hcontainer>
+      <hcontainer eId="sec_faturamento" name="section">
+        <heading>3. Faturamento e Stripe</heading>
+        <p>O faturamento é processado pela Stripe, Inc. (“Stripe”), por meio de Checkout em modo de assinatura e do Portal do Cliente. O tratamento dos dados de pagamento está descrito na Política de Privacidade vigente em /legal/politica-de-privacidade.</p>
+        <p>A cobrança segue o ciclo escolhido (mensal ou anual), com renovação automática ao fim de cada período, salvo cancelamento prévio. Os valores são em reais. Tributos incidentes sobre a operação, quando aplicáveis, serão cobrados ou retidos conforme a legislação brasileira.</p>
+        <p>O Cliente deve manter meio de pagamento válido no Stripe. Em caso de falha de cobrança, a assinatura poderá ser marcada como inadimplente (past due). Após 3 (três) tentativas de cobrança sem êxito, a assinatura e o workspace poderão ser suspensos até a regularização.</p>
+        <p>O Cliente gerencia cartão, faturas, alteração de plano e cancelamento no Portal do Cliente Stripe, acessível a partir das configurações de cobrança da Plataforma, quando a assinatura estiver vinculada a um identificador de cliente Stripe.</p>
+      </hcontainer>
+      <hcontainer eId="sec_sla" name="section">
+        <heading>4. SLA e disponibilidade</heading>
+        <p>O Prestador compromete-se a uma disponibilidade mensal de 99,9% (noventa e nove vírgula nove por cento) dos endpoints públicos de feed Meta da Plataforma (incluindo /api/v1/feeds/:token/meta-vehicles.xml), equivalente a um orçamento de indisponibilidade de até aproximadamente 43,8 minutos por mês civil.</p>
+        <p>Não entram no cálculo de indisponibilidade: (i) manutenções programadas comunicadas com antecedência razoável; (ii) falhas de sistemas de gestão (DMS), do Meta, da Stripe, de internet ou de demais terceiros; (iii) configurações, credenciais ou conteúdos incorretos do Cliente; e (iv) eventos de força maior.</p>
+        <p>Este SLA descreve um objetivo operacional. Na data desta versão, o descumprimento não gera crédito financeiro automático nem indenização específica além do previsto nos Termos de Uso. O plano Enterprise DAA inclui suporte prioritário, sem garantia de prazo numérico de primeira resposta nesta versão.</p>
+      </hcontainer>
+      <hcontainer eId="sec_suporte" name="section">
+        <heading>5. Suporte</heading>
+        <p>O canal oficial de suporte é o e-mail suporte@autocatalogo.com.br. O Prestador poderá disponibilizar base de ajuda no site de marketing ou na Plataforma.</p>
+        <p>O plano Starter Catalog inclui suporte por e-mail e acesso à base de ajuda. O plano Pro Automotive inclui, além disso, atendimento por WhatsApp quando esse canal estiver habilitado no produto. O plano Enterprise DAA inclui suporte prioritário e onboarding dedicado, nos limites da disponibilidade do Prestador.</p>
+        <p>Durante o trial, o Cliente tem acesso a suporte técnico de homologação equivalente ao plano Pro Automotive. O suporte cobre o uso da Plataforma (cadastro, feeds, sincronização Meta e cobrança). Não inclui consultoria de anúncios, gestão de campanhas no Meta, correção de dados no DMS do Cliente nem desenvolvimento sob demanda fora do produto.</p>
+      </hcontainer>
+      <hcontainer eId="sec_alteracao" name="section">
+        <heading>6. Alteração de termos e preços</heading>
+        <p>O Prestador pode alterar este Contrato, os planos, os limites técnicos e os preços, mediante aviso prévio de 30 (trinta) dias enviado ao e-mail cadastrado do Cliente, salvo quando a alteração for exigida por lei ou por risco de segurança, hipótese em que o prazo poderá ser menor.</p>
+        <p>A versão vigente será publicada em /legal/contrato-saas, com data de Expression nos metadados do documento. O uso continuado da Plataforma após a data de vigência da alteração, sem cancelamento, constitui aceite das novas condições. Se o Cliente não concordar, deverá cancelar a assinatura antes da vigência, nos termos da seção 7.</p>
+        <p>Aumento de preço não se aplica retroativamente a períodos já pagos. No ciclo seguinte à vigência, a cobrança observará os novos valores, salvo se o Cliente cancelar ou alterar o plano.</p>
+      </hcontainer>
+      <hcontainer eId="sec_cancelamento" name="section">
+        <heading>7. Cancelamento</heading>
+        <p>O Cliente pode cancelar a assinatura a qualquer momento pelo Portal do Cliente Stripe ou, na indisponibilidade do Portal, mediante solicitação a suporte@autocatalogo.com.br. Não há multa de fidelidade.</p>
+        <p>O cancelamento produz efeitos ao término do período já pago (cancelamento ao fim do ciclo). O Cliente mantém o acesso correspondente ao plano até currentPeriodEnd, salvo suspensão por inadimplência, violação dos Termos de Uso ou ordem legal.</p>
+        <p>Não há reembolso proporcional de períodos mensais ou anuais já iniciados, salvo quando a lei brasileira exigir de forma diversa. Após o encerramento, aplicam-se os efeitos dos Termos de Uso e da Política de Privacidade, incluindo a eliminação dos dados do Cliente em até 30 (trinta) dias, ressalvadas retenções legais (por exemplo, registros de faturamento).</p>
+        <p>O Prestador pode encerrar ou suspender o serviço nas hipóteses dos Termos de Uso, inclusive inadimplência após as tentativas de cobrança descritas na seção 3. Este Contrato é regido pela lei brasileira. Fica eleito o foro da Comarca de Guapó, Estado de Goiás, nos termos dos Termos de Uso.</p>
+      </hcontainer>
+    </mainBody>
+  </doc>
+</akomaNtoso>
