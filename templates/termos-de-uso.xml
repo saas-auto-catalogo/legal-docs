@@ -12,7 +12,7 @@
     <mainBody>
       <hcontainer eId="sec_objeto" name="section">
         <heading>1. Objeto do serviço</heading>
-        <p>[Redigir: descrição do SaaS Auto Catálogo e aceite dos termos]</p>
+        <p>[Redigir: descrição do DriveSync e aceite dos termos]</p>
       </hcontainer>
       <hcontainer eId="sec_elegibilidade" name="section">
         <heading>2. Elegibilidade</heading>

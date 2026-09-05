@@ -12,7 +12,7 @@
     <mainBody>
       <hcontainer eId="sec_direitos" name="section">
         <heading>1. Seus direitos</heading>
-        <p>Este Aviso resume os direitos do titular de dados pessoais no SaaS Auto Catálogo, nos termos do art. 18 da Lei n.º 13.709/2018 (LGPD). O tratamento de dados, as bases legais, as finalidades e os subprocessadores estão descritos na Política de Privacidade vigente em /legal/politica-de-privacidade.</p>
+        <p>Este Aviso resume os direitos do titular de dados pessoais no DriveSync, nos termos do art. 18 da Lei n.º 13.709/2018 (LGPD). O tratamento de dados, as bases legais, as finalidades e os subprocessadores estão descritos na Política de Privacidade vigente em /legal/politica-de-privacidade.</p>
         <p>O titular pode solicitar:</p>
         <list>
           <item>
@@ -43,7 +43,7 @@
       </hcontainer>
       <hcontainer eId="sec_exercicio" name="section">
         <heading>2. Como exercer seus direitos</heading>
-        <p>Envie e-mail para suporte@autocatalogo.com.br com: (i) nome completo; (ii) e-mail associado à conta; e (iii) descrição clara do pedido (por exemplo, acesso, correção ou eliminação).</p>
+        <p>Envie e-mail para suporte@drivesync.me com: (i) nome completo; (ii) e-mail associado à conta; e (iii) descrição clara do pedido (por exemplo, acesso, correção ou eliminação).</p>
         <p>Para proteger o titular, o Prestador pode solicitar documentos ou informações adicionais para confirmar a identidade antes de atender à solicitação. Pedidos de terceiros só serão atendidos mediante comprovação de legitimidade (por exemplo, procuração).</p>
       </hcontainer>
       <hcontainer eId="sec_prazo" name="section">
@@ -52,7 +52,7 @@
       </hcontainer>
       <hcontainer eId="sec_dpo" name="section">
         <heading>4. Encarregado (DPO)</heading>
-        <p>O controlador e o encarregado pelo tratamento de dados pessoais (DPO) é Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás. Canal: suporte@autocatalogo.com.br.</p>
+        <p>O controlador e o encarregado pelo tratamento de dados pessoais (DPO) é Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás. Canal: suporte@drivesync.me.</p>
       </hcontainer>
       <hcontainer eId="sec_anpd" name="section">
         <heading>5. Autoridade Nacional (ANPD)</heading>

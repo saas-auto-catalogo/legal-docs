@@ -12,10 +12,10 @@
     <mainBody>
       <hcontainer eId="sec_controlador" name="section">
         <heading>1. Controlador e encarregado (DPO)</heading>
-        <p>Esta Política de Privacidade descreve como o SaaS Auto Catálogo trata dados pessoais em conformidade com a Lei n.º 13.709/2018 (Lei Geral de Proteção de Dados Pessoais — LGPD).</p>
+        <p>Esta Política de Privacidade descreve como o DriveSync trata dados pessoais em conformidade com a Lei n.º 13.709/2018 (Lei Geral de Proteção de Dados Pessoais — LGPD).</p>
         <p>O controlador dos dados pessoais tratados neste serviço é Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Controlador”).</p>
-        <p>O encarregado pelo tratamento de dados pessoais (Data Protection Officer — DPO) é o próprio Controlador. Para assuntos relacionados à privacidade e à LGPD, utilize o canal suporte@autocatalogo.com.br.</p>
-        <p>Esta política aplica-se ao uso da Plataforma nos domínios app.autocatalogo.com.br, api.autocatalogo.com.br e no site de marketing do produto, por lojistas e concessionárias que contratam o serviço em modelo B2B.</p>
+        <p>O encarregado pelo tratamento de dados pessoais (Data Protection Officer — DPO) é o próprio Controlador. Para assuntos relacionados à privacidade e à LGPD, utilize o canal suporte@drivesync.me.</p>
+        <p>Esta política aplica-se ao uso da Plataforma nos domínios app.drivesync.me, api.drivesync.me e no site de marketing do produto, por lojistas e concessionárias que contratam o serviço em modelo B2B.</p>
       </hcontainer>
       <hcontainer eId="sec_dados" name="section">
         <heading>2. Dados pessoais coletados</heading>
@@ -179,7 +179,7 @@
       </hcontainer>
       <hcontainer eId="sec_contato" name="section">
         <heading>8. Canal de contato</heading>
-        <p>Para exercer seus direitos como titular de dados pessoais, esclarecer dúvidas sobre esta política ou reportar incidentes de privacidade, envie mensagem para suporte@autocatalogo.com.br, informando nome completo e o e-mail associado à conta.</p>
+        <p>Para exercer seus direitos como titular de dados pessoais, esclarecer dúvidas sobre esta política ou reportar incidentes de privacidade, envie mensagem para suporte@drivesync.me, informando nome completo e o e-mail associado à conta.</p>
         <p>Responderemos às solicitações em até 15 (quinze) dias, prorrogáveis por mais 15 dias mediante justificativa escrita ao titular, conforme art. 18, § 4º, da LGPD.</p>
         <p>Esta Política de Privacidade pode ser atualizada periodicamente. A versão vigente estará disponível em /legal/politica-de-privacidade, com data de publicação indicada nos metadados do documento. O uso continuado da Plataforma após alterações relevantes poderá exigir novo aceite, conforme comunicado no produto.</p>
       </hcontainer>
