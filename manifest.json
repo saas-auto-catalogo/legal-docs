@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:40:23.129Z",
+  "generatedAt": "2026-09-05T03:16:34.129Z",
   "documents": [
     {
       "slug": "aviso-lgpd",
@@ -8,7 +8,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/aviso-lgpd",
       "frbrExpression": "/akn/br/doc/autocatalogo/aviso-lgpd/2026-09-02",
       "path": "akn/aviso-lgpd/2026-09-02.xml",
-      "contentHash": "sha256:bc457032428b941c737af21c8f17feece63223cf0ab5fc6161b3c1e95bd6e1a5",
+      "contentHash": "sha256:129fb8fe0b19bc17ed10d4bc01cbdda4259e057c8d2106e69b0e694e87888e96",
       "publishedAt": "2026-09-02"
     },
     {
@@ -18,7 +18,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/contrato-saas",
       "frbrExpression": "/akn/br/doc/autocatalogo/contrato-saas/2026-09-02",
       "path": "akn/contrato-saas/2026-09-02.xml",
-      "contentHash": "sha256:4eb7821b4807f014475bcb0ddf1994a1bedccccc27cccdaf22b5ad1cb8c7a57c",
+      "contentHash": "sha256:bbacb45dcc3d4a083065b03c54410dd10a2870da08f334c082a4a6c3393a65d9",
       "publishedAt": "2026-09-02"
     },
     {
@@ -28,7 +28,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/politica-de-cookies",
       "frbrExpression": "/akn/br/doc/autocatalogo/politica-de-cookies/2026-09-02",
       "path": "akn/politica-de-cookies/2026-09-02.xml",
-      "contentHash": "sha256:a9d558f08383c9376dc768803a49bea0c995a6da8b11ea7e40570561c27f8268",
+      "contentHash": "sha256:ce7d49a07c2afa739c3774e04dedae5712e449814d1d9fac8b03ddca6612cddc",
       "publishedAt": "2026-09-02"
     },
     {
@@ -38,7 +38,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/politica-de-privacidade",
       "frbrExpression": "/akn/br/doc/autocatalogo/politica-de-privacidade/2026-09-02",
       "path": "akn/politica-de-privacidade/2026-09-02.xml",
-      "contentHash": "sha256:5f451b0c2dd2006274ef84fbd73c7ba1c917db459e9796c6591685fd7f09214a",
+      "contentHash": "sha256:21e1247beb7ab7032a14c21632b39e8b6e2ae9e687d749fa4f4a02b62ffce31c",
       "publishedAt": "2026-09-02"
     },
     {
@@ -48,7 +48,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/termos-de-uso",
       "frbrExpression": "/akn/br/doc/autocatalogo/termos-de-uso/2026-09-02",
       "path": "akn/termos-de-uso/2026-09-02.xml",
-      "contentHash": "sha256:79ce8991aed8438985c8ca198ad3c885092ced7ca0f61ac97fa3792b49bcad9c",
+      "contentHash": "sha256:5af171e0a51e9ed7e078d80b5a68c9c3cd57d1d65965d6916dda5643ba4ebb1c",
       "publishedAt": "2026-09-02"
     }
   ]

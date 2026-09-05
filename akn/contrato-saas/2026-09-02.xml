@@ -12,7 +12,7 @@
     <mainBody>
       <hcontainer eId="sec_planos" name="section">
         <heading>1. Planos e preços</heading>
-        <p>Este Contrato SaaS (“Contrato”) regula as condições comerciais da plataforma SaaS Auto Catálogo (“Plataforma”), prestada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), ao lojista, concessionária ou agência que contrata o serviço (“Cliente”). Complementa os Termos de Uso vigentes em /legal/termos-de-uso. O aceite deste Contrato ocorre no checkout ou na conversão do período de teste para plano pago.</p>
+        <p>Este Contrato SaaS (“Contrato”) regula as condições comerciais da plataforma DriveSync (“Plataforma”), prestada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), ao lojista, concessionária ou agência que contrata o serviço (“Cliente”). Complementa os Termos de Uso vigentes em /legal/termos-de-uso. O aceite deste Contrato ocorre no checkout ou na conversão do período de teste para plano pago.</p>
         <p>A Plataforma é oferecida em três planos, com cobrança em reais (BRL), nas modalidades mensal e anual:</p>
         <table>
           <tr>
@@ -77,7 +77,7 @@
       </hcontainer>
       <hcontainer eId="sec_suporte" name="section">
         <heading>5. Suporte</heading>
-        <p>O canal oficial de suporte é o e-mail suporte@autocatalogo.com.br. O Prestador poderá disponibilizar base de ajuda no site de marketing ou na Plataforma.</p>
+        <p>O canal oficial de suporte é o e-mail suporte@drivesync.me. O Prestador poderá disponibilizar base de ajuda no site de marketing ou na Plataforma.</p>
         <p>O plano Starter Catalog inclui suporte por e-mail e acesso à base de ajuda. O plano Pro Automotive inclui, além disso, atendimento por WhatsApp quando esse canal estiver habilitado no produto. O plano Enterprise DAA inclui suporte prioritário e onboarding dedicado, nos limites da disponibilidade do Prestador.</p>
         <p>Durante o trial, o Cliente tem acesso a suporte técnico de homologação equivalente ao plano Pro Automotive. O suporte cobre o uso da Plataforma (cadastro, feeds, sincronização Meta e cobrança). Não inclui consultoria de anúncios, gestão de campanhas no Meta, correção de dados no DMS do Cliente nem desenvolvimento sob demanda fora do produto.</p>
       </hcontainer>
@@ -89,7 +89,7 @@
       </hcontainer>
       <hcontainer eId="sec_cancelamento" name="section">
         <heading>7. Cancelamento</heading>
-        <p>O Cliente pode cancelar a assinatura a qualquer momento pelo Portal do Cliente Stripe ou, na indisponibilidade do Portal, mediante solicitação a suporte@autocatalogo.com.br. Não há multa de fidelidade.</p>
+        <p>O Cliente pode cancelar a assinatura a qualquer momento pelo Portal do Cliente Stripe ou, na indisponibilidade do Portal, mediante solicitação a suporte@drivesync.me. Não há multa de fidelidade.</p>
         <p>O cancelamento produz efeitos ao término do período já pago (cancelamento ao fim do ciclo). O Cliente mantém o acesso correspondente ao plano até currentPeriodEnd, salvo suspensão por inadimplência, violação dos Termos de Uso ou ordem legal.</p>
         <p>Não há reembolso proporcional de períodos mensais ou anuais já iniciados, salvo quando a lei brasileira exigir de forma diversa. Após o encerramento, aplicam-se os efeitos dos Termos de Uso e da Política de Privacidade, incluindo a eliminação dos dados do Cliente em até 30 (trinta) dias, ressalvadas retenções legais (por exemplo, registros de faturamento).</p>
         <p>O Prestador pode encerrar ou suspender o serviço nas hipóteses dos Termos de Uso, inclusive inadimplência após as tentativas de cobrança descritas na seção 3. Este Contrato é regido pela lei brasileira. Fica eleito o foro da Comarca de Guapó, Estado de Goiás, nos termos dos Termos de Uso.</p>

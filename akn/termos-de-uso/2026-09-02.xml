@@ -12,9 +12,9 @@
     <mainBody>
       <hcontainer eId="sec_objeto" name="section">
         <heading>1. Objeto do serviço</heading>
-        <p>Estes Termos de Uso regulam o acesso e a utilização da plataforma SaaS Auto Catálogo (“Plataforma”), disponibilizada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”).</p>
+        <p>Estes Termos de Uso regulam o acesso e a utilização da plataforma DriveSync (“Plataforma”), disponibilizada por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”).</p>
         <p>A Plataforma é um software como serviço destinado a lojistas e concessionárias automotivas, que sincroniza o estoque de sistemas de gestão (DMS) — incluindo AutoCerto, Altimus, Sisvag, BomControle e Webmotors — para publicação e atualização de anúncios automotivos no Meta, no formato Automotive Inventory Ads (Dynamic Automotive Ads — DAA).</p>
-        <p>O cadastro, o login e o uso da Plataforma, inclusive em app.autocatalogo.com.br, implicam a leitura e o aceite integral destes Termos. Se o Cliente não concordar, deve abster-se de utilizar o serviço. Condições comerciais (planos, preços, trial, faturamento e SLA) são tratadas no Contrato SaaS vigente.</p>
+        <p>O cadastro, o login e o uso da Plataforma, inclusive em app.drivesync.me, implicam a leitura e o aceite integral destes Termos. Se o Cliente não concordar, deve abster-se de utilizar o serviço. Condições comerciais (planos, preços, trial, faturamento e SLA) são tratadas no Contrato SaaS vigente.</p>
       </hcontainer>
       <hcontainer eId="sec_elegibilidade" name="section">
         <heading>2. Elegibilidade</heading>
@@ -25,7 +25,7 @@
       <hcontainer eId="sec_conta" name="section">
         <heading>3. Conta e credenciais</heading>
         <p>O acesso à Plataforma exige registro de conta e, quando aplicável, de um workspace associado ao Cliente. O titular da conta é responsável por todas as atividades realizadas com suas credenciais e pelos usuários que convidar ou autorizar no workspace.</p>
-        <p>O Cliente deve manter senha e demais fatores de autenticação em sigilo, não compartilhá-los com terceiros não autorizados e notificar o Prestador, sem demora, em caso de perda, comprometimento ou uso indevido da conta, pelo canal suporte@autocatalogo.com.br.</p>
+        <p>O Cliente deve manter senha e demais fatores de autenticação em sigilo, não compartilhá-los com terceiros não autorizados e notificar o Prestador, sem demora, em caso de perda, comprometimento ou uso indevido da conta, pelo canal suporte@drivesync.me.</p>
         <p>O Prestador pode recusar, suspender ou exigir verificação adicional de cadastro quando houver indício de dados falsos, risco de segurança ou violação destes Termos.</p>
       </hcontainer>
       <hcontainer eId="sec_uso_aceitavel" name="section">
@@ -53,7 +53,7 @@
       </hcontainer>
       <hcontainer eId="sec_pi" name="section">
         <heading>5. Propriedade intelectual</heading>
-        <p>O software da Plataforma, a marca Auto Catálogo, a documentação, as interfaces e demais elementos desenvolvidos pelo Prestador são de sua titularidade ou de seus licenciadores. O Cliente recebe licença de uso não exclusiva, intransferível e revogável, limitada ao período de vigência da relação contratual e ao objeto destes Termos.</p>
+        <p>O software da Plataforma, a marca DriveSync, a documentação, as interfaces e demais elementos desenvolvidos pelo Prestador são de sua titularidade ou de seus licenciadores. O Cliente recebe licença de uso não exclusiva, intransferível e revogável, limitada ao período de vigência da relação contratual e ao objeto destes Termos.</p>
         <p>Os dados de catálogo, estoque, criativos e demais conteúdos inseridos ou sincronizados pelo Cliente (“Conteúdo do Cliente”) permanecem de titularidade do Cliente ou de quem lhe concedeu direitos. O Cliente concede ao Prestador licença limitada para tratar, transmitir e armazenar esse conteúdo apenas na medida necessária à prestação do serviço (incluindo envio ao Meta e aos conectores de DMS).</p>
         <p>O Cliente não adquire, pelo uso da Plataforma, qualquer direito sobre o software, APIs, marcas ou materiais do Prestador, do Meta ou dos fornecedores de DMS.</p>
       </hcontainer>

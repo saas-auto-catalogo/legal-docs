@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/saas-auto-catalogo/legal-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/saas-auto-catalogo/legal-docs/actions/workflows/ci.yml)
 
-Repositório **fonte única** dos documentos jurídicos do **SaaS Auto Catálogo**: termos, privacidade, cookies, contrato SaaS e aviso LGPD.
+Repositório **fonte única** dos documentos jurídicos do **DriveSync**: termos, privacidade, cookies, contrato SaaS e aviso LGPD.
 
 - **Formato:** [Akoma Ntoso 3.0](https://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-vocabulary/akn-02-vocabulary.html), tipo `doc`
 - **Versionamento:** FRBR (Work / Expression / Manifestation)

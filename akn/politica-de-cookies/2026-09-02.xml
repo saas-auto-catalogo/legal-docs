@@ -12,10 +12,10 @@
     <mainBody>
       <hcontainer eId="sec_definicao" name="section">
         <heading>1. O que são cookies</heading>
-        <p>Esta Política de Cookies descreve como o SaaS Auto Catálogo, operado por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), utiliza cookies e tecnologias similares nos domínios do serviço — incluindo app.autocatalogo.com.br, api.autocatalogo.com.br e o site de marketing do produto.</p>
+        <p>Esta Política de Cookies descreve como o DriveSync, operado por Fábio Oliveira Nascimento, inscrito no CPF sob o n.º 974.975.842-00, com domicílio em Guapó, Estado de Goiás (“Prestador”), utiliza cookies e tecnologias similares nos domínios do serviço — incluindo app.drivesync.me, api.drivesync.me e o site de marketing do produto.</p>
         <p>Cookies são pequenos arquivos de texto armazenados no navegador ou dispositivo quando você visita um site ou utiliza um aplicativo web. Eles permitem reconhecer o dispositivo, manter preferências e viabilizar funcionalidades essenciais, como a autenticação.</p>
         <p>Além de cookies, o serviço pode utilizar tecnologias similares, como armazenamento local do navegador (por exemplo, para registrar preferências de consentimento no banner de cookies, quando disponível) e tokens de acesso mantidos em memória no aplicativo (sem persistência em cookie). Recursos de terceiros, como fontes tipográficas carregadas de provedores externos, podem envolver requisições a domínios de terceiros sem que o Prestador defina cookies de primeira parte para essa finalidade.</p>
-        <p>Esta política não se aplica a sites ou aplicativos de terceiros que não façam parte do SaaS Auto Catálogo, ainda que sejam acessados por links a partir das nossas páginas.</p>
+        <p>Esta política não se aplica a sites ou aplicativos de terceiros que não façam parte do DriveSync, ainda que sejam acessados por links a partir das nossas páginas.</p>
       </hcontainer>
       <hcontainer eId="sec_tipos" name="section">
         <heading>2. Tipos de cookies</heading>
@@ -31,7 +31,7 @@
             <p><b>Marketing:</b> permitem personalização de anúncios ou remarketing em plataformas de terceiros. Quando forem introduzidos, dependerão do seu consentimento prévio.</p>
           </item>
         </list>
-        <p>Na data desta versão, o SaaS Auto Catálogo utiliza apenas cookies essenciais de primeira parte e cookies de terceiros estritamente necessários ao pagamento (Stripe) e à conexão com contas Meta (Login for Business). Não utilizamos, neste momento, cookies analíticos ou de marketing em nossos domínios.</p>
+        <p>Na data desta versão, o DriveSync utiliza apenas cookies essenciais de primeira parte e cookies de terceiros estritamente necessários ao pagamento (Stripe) e à conexão com contas Meta (Login for Business). Não utilizamos, neste momento, cookies analíticos ou de marketing em nossos domínios.</p>
       </hcontainer>
       <hcontainer eId="sec_tabela" name="section">
         <heading>3. Tabela de cookies</heading>
@@ -73,11 +73,11 @@
         <p>Quando o banner de cookies estiver disponível no site de marketing, você poderá aceitar todos os cookies, recusar cookies não essenciais ou personalizar categorias (analíticos e marketing). A escolha será registrada para respeitar suas preferências em visitas futuras.</p>
         <p>Você também pode configurar o navegador para bloquear ou excluir cookies. A desativação de cookies essenciais — em especial o refreshToken — impedirá a manutenção da sessão autenticada e pode exigir novo login a cada acesso ou limitar funcionalidades do serviço.</p>
         <p>Para cookies definidos em domínios de terceiros (Stripe, Meta), consulte as configurações de privacidade e as políticas de cookies desses provedores. A revogação de acesso à conta Meta ou o encerramento da assinatura no Stripe pode limitar cookies associados a esses fluxos.</p>
-        <p>Para dúvidas sobre cookies ou para exercer direitos relacionados a dados pessoais, utilize o canal indicado na Política de Privacidade ou escreva para suporte@autocatalogo.com.br.</p>
+        <p>Para dúvidas sobre cookies ou para exercer direitos relacionados a dados pessoais, utilize o canal indicado na Política de Privacidade ou escreva para suporte@drivesync.me.</p>
       </hcontainer>
       <hcontainer eId="sec_privacidade" name="section">
         <heading>5. Relação com a Política de Privacidade</heading>
-        <p>Esta Política de Cookies complementa a Política de Privacidade do SaaS Auto Catálogo, que descreve de forma mais ampla as bases legais, finalidades, compartilhamento, retenção e direitos do titular de dados pessoais tratados no serviço, inclusive dados obtidos por meio de cookies essenciais.</p>
+        <p>Esta Política de Cookies complementa a Política de Privacidade do DriveSync, que descreve de forma mais ampla as bases legais, finalidades, compartilhamento, retenção e direitos do titular de dados pessoais tratados no serviço, inclusive dados obtidos por meio de cookies essenciais.</p>
         <p>Consulte a versão vigente em /legal/politica-de-privacidade. Em caso de conflito entre documentos sobre tratamento de dados pessoais, prevalece a Política de Privacidade.</p>
       </hcontainer>
     </mainBody>
