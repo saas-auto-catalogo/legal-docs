@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T03:16:34.129Z",
+  "generatedAt": "2026-09-05T03:54:40.798Z",
   "documents": [
     {
       "slug": "aviso-lgpd",
@@ -18,7 +18,7 @@
       "frbrWork": "/akn/br/doc/autocatalogo/contrato-saas",
       "frbrExpression": "/akn/br/doc/autocatalogo/contrato-saas/2026-09-02",
       "path": "akn/contrato-saas/2026-09-02.xml",
-      "contentHash": "sha256:bbacb45dcc3d4a083065b03c54410dd10a2870da08f334c082a4a6c3393a65d9",
+      "contentHash": "sha256:0325683234279b550642a3fb954f21cb4baf69dde014e102659890a25f52bb91",
       "publishedAt": "2026-09-02"
     },
     {
